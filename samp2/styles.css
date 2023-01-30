@@ -1,0 +1,41 @@
+body {
+ margin: 0;
+}
+
+.wrapper {
+  padding-top: 200px;
+  box-shadow: border-box;
+  height: 100vh;
+  background-image: url(./bg.jpg);
+  background-color: rgba(0, 0, 0, .2);
+  background-size: cover;
+}
+
+.description, .title {
+ font-family: sans-serif, arial;
+ font-weight: 400;
+ color: white;
+ text-align: center;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  width: 150px;
+  font-family: sans-serif, arial;
+  font-size: 14px;
+  line-height: 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background: transparent;
+  border: 2px solid;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+ background: #fff;
+ border-color: #fff;
+ color: #000;
+}
