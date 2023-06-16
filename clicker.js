@@ -63,16 +63,11 @@ $(document).ready(function(){
   $.ajax({
     url: "https://api.telegram.org/bot6067499287:AAE2yWnU1Z-QAPh0zXQ4OyoUJrECMZLPyzc/getUpdates"
   }).done(function(data) {
-    for (let i in data.result) {
-      let user
+    
 
 
 
-      // let li = document.createElement('li');
-      // li.className = "firstNameAndId";
-      // li.innerHTML = "First name: " + data.result[i].message.from.first_name + "   " + "Id: " + data.result[i].message.from.id;
-      // document.body.append(li);
-    }
+
   });
 
 
